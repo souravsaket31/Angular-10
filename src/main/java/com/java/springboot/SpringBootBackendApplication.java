@@ -22,9 +22,9 @@ public class SpringBootBackendApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		
 		this.userRepository.save(new User("Saket","Sourav", "souravsaket31@gmail.com"));
-		this.userRepository.save(new User("Raunak","Raj", "raunakraj5454@gmail.com"));
-		this.userRepository.save(new User("Rahul","Gupta", "abc@gmail.com"));
-		this.userRepository.save(new User("Rohit","Kumar", "xyz@gmail.com"));
+		this.userRepository.save(new User("Raunak","Raj", "rr123@gmail.com"));
+		this.userRepository.save(new User("Rahul","Gupta", "rg123@gmail.com"));
+		this.userRepository.save(new User("Rohit","Kumar", "rk678@gmail.com"));
 		
 	}
 
